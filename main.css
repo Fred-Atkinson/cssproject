@@ -1,0 +1,153 @@
+html, body, h1, h2, h3, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+
+
+
+.navbar{
+   margin: 50px 0px 50px 0px;
+   width: 100%;
+   border-bottom: 3px rgb(255, 255, 255) solid;
+}
+.navbar a{
+    padding-right: 20px;
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+    color: white; 
+}
+.navp{
+   display: flex;
+   justify-content: left;
+   margin-left: 15px;
+   color: white;
+   font-size: 18px;
+}
+.nava{
+    display: flex;
+    justify-content: right;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline white;
+    text-underline-offset: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+}
+h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50px;
+    font-size: 45px;
+    font-family: 'Junge', sans-serif;
+}
+
+.imgcontainer img{
+    width: 100%;
+    height: auto;
+    position: relative;
+   top: -280px;
+   z-index: -1;
+   filter: brightness(50%);
+}
+
+
+.section1 img{
+    width: 40%;
+    height: auto;
+    position: relative;
+    float: left;
+
+}
+.section1{
+    position: relative;
+    top: -285px;
+    background-color: black;
+    width: auto;
+    
+}
+.section1 p{
+    padding: 30px 30px 40px 700px;
+    font-size: 45px;
+    color: white;
+}
+
+.section1 h3{
+    font-size: 50px;
+    color: white;
+    padding-left: 700px;
+    padding-top: 30px;
+}
+
+.section2 img{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    float: right;
+    
+    
+}
+
+.section2{
+    position: relative;
+    background-color: rgb(28, 27, 27);
+    width: auto;
+    top: -300px;
+}
+.section2 p{
+    padding: 30px 700px 30px 30px;
+    font-size: 45px;
+    color: white;
+    
+}
+
+.section2 h3{
+    font-size: 50px;
+    color: white;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.section3 img{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    float: left;
+}
+
+.section3{
+    position: relative;
+    top: -300px;
+    background-color: black;
+    width: auto;
+    
+}
+.section3 p{
+    padding: 30px 30px 112px 700px;
+    font-size: 45px;
+    color: white;
+}
+
+.section3 h3{
+    font-size: 50px;
+    color: white;
+    padding-left: 700px;
+    padding-top: 30px;
+}
+
+
+body{
+    background-color: rgb(41, 38, 38);
+}
+
+p{
+    font-family: 'Italiana', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto-Mono', sans-serif;
+}
